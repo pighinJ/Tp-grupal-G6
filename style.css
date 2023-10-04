@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*ESTILO HEADER*/
+
+header {
+    background-image: url("./deforestacion.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items:flex-end;
+
+}
+header .menu img{
+    margin-left: 10px;
+    width: 40px;
+    height: auto;
+    position: absolute;
+    left: 0;
+}
+
+header .menu {
+    display: flex;
+    margin: 0 30px;
+    justify-content: flex-end;
+
+}
+
+header .menu a {
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+header .menu a:hover {
+    color: grey;
+}
+
+/*FOOTER*/
+
+footer {
+    
+    padding: 60px;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: monospace;
+    
+}
+
+footer img {
+    margin-left: 30px;
+    padding-top: 20px;
+    width: 80px;
+    height: auto;
+}
+
+footer .button-inf p{   
+    text-decoration: none;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    color: #666666 ;
+    font-weight: 600;
+    
+    
+}
+footer .button-inf2 p{
+    text-decoration: none;
+    width: 10px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    color: #666666 ;
+    font-weight: 600;
+    
+}
+
+footer .sub-mail h2{
+    color: #666666;
+    margin-bottom: 20px;
+    
+}
+footer .sub-mail button {
+    color: #272727;
+    background-color: #666666;
+}
+
